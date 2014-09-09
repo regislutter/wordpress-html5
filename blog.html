@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+    
+    <!-- Website Title & Description -->
+    <title>Hexagonal - Clean Multipurpose Responsive Website</title>
+    <meta name="description" content="Hexagonal - Clean Multipurpose Responsive Website">
+    
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+    <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+    
+    <!-- Included CSS Files -->
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/foundation.css">
+    <link rel="stylesheet" href="stylesheets/prettyPhoto.css">
+    <link rel="stylesheet" href="stylesheets/mainStyles.css">
+    
+    <!-- Google Web Fonts -->
+    
+	<!-- Included JS Files -->
+    <script type="text/javascript" src="javascripts/vendor/custom.modernizr.js"></script>
+    
+</head>
+<body>
+  
+ <!-- THIS IS YOUR HEAD WITH NAVIGATION, INTRO TEXT AND SOCIALS-->
+ 
+ <div id="headerWrapper" class="clear-fix no-background">
+  <div id="header" class="row">
+  	<nav class="top-bar">
+        <ul class="title-area">
+        
+        <!-- Title Area -->
+        
+        <li class="name">
+          <h1><a class="logo" href="index.html"><img src="images/1-Home/logoHere.png" alt="Hex Logo" /></a></h1>
+        </li>
+        
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        
+        <li class="toggle-topbar menu-icon"><a href="blog.html#"><span>Menu</span></a></li>
+        </ul>
+    
+        <section class="top-bar-section clear-fix">
+        <!-- Left Nav Section -->
+        
+          <ul class="left">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">About Us</a></li>
+          <li class="active"><a href="portfolio.html">Portfolio</a></li>
+          <li class="active"><a href="blog.html">Blog</a></li>
+          <li class="active has-dropdown"><a href="blog.html#">Features</a>
+          	<ul class="dropdown">
+              <li><a href="services.html">Services</a></li>
+              <li><a href="single-post.html">Single Post</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="typography.html">Typography</a></li>
+            </ul>
+          </li>
+          <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+        
+         <select> 
+	      <option value="" selected="selected">Navigation</option> 
+	      
+	      <option value="index.html">Home</option> 
+	      <option value="about.html">About Us</option> 
+	      <option value="portfolio.html">Portfolio</option> 
+	      <option value="blog.html">Blog</option> 
+	      <option value="services.html">Services</option>
+          <option value="single-post.html">Single Post</option> 
+          <option value="team.html">Team</option> 
+          <option value="typography.html">Typography</option>
+          <option value="contact.html">Contact</option> 
+	    </select>
+        
+        <ul id="socials">
+          <li class="active"><a href="blog.html#">Facebook</a></li>
+          <li class="active"><a href="blog.html#">Twitter</a></li>
+        </ul>
+        </section>
+	</nav>
+ </div>
+ </div>
+ 
+ 
+ <!--Blog BANNER-->
+ 
+ <div id="banner">
+ 	<p>Blog</p>
+ 	<span>
+    	<p>B</p>
+    </span>
+ </div>
+
+
+ <!-- BLOG WRAPPER-->
+ <div id="blogWrapper" class="row">
+ 	<div class="large-6 columns postContainer">
+    	<div class="post-num">
+        	<img src="images/4-Blog/blog-post-img1.jpg" alt="Blog Image" />
+            <p class="postDate">05.12.2013</p>
+        </div>
+        
+        <div class="postInfo">
+        	<img src="images/1-Home/user1.png" alt="Posted By" />
+            <p class="posterName"><a href="single-post.html">Mus nascetur</a></p>
+            <p class="postInfo">Adipiscing nisi phasellus auctor et a rhoncus vel ac. Non nunc sit, porta, augue egestas integer.</p>
+        </div>
+        
+        <div class="blogHover">
+              <a href="images/1-Home/blog-img3.jpg" rel="prettyPhoto" class="firstL">Zoom</a>
+              <a href="single-post.html">Link</a>
+        </div>
+    </div>
+    
+    <div class="large-6 columns postContainer">
+    	<div class="post-num">
+        	<img src="images/4-Blog/blog-post-img2.jpg" alt="Blog Image" />
+            <p class="postDate">05.12.2013</p>
+        </div>
+        
+        <div class="postInfo">
+        	<img src="images/1-Home/user3.png" alt="Posted By" />
+            <p class="posterName"><a href="single-post.html">Mus nascetur</a></p>
+            <p class="postInfo">Adipiscing nisi phasellus auctor et a rhoncus vel ac. Non nunc sit, porta, augue egestas integer.</p>
+        </div>
+        
+        <div class="blogHover">
+              <a href="images/1-Home/blog-img3.jpg" rel="prettyPhoto" class="firstL">Zoom</a>
+              <a href="single-post.html">Link</a>
+        </div>
+    </div>
+    
+    <div class="large-6 columns postContainer">
+    	<div class="post-num">
+        	<img src="images/4-Blog/blog-post-img3.jpg" alt="Blog Image" />
+            <p class="postDate">05.12.2013</p>
+        </div>
+        
+        <div class="postInfo">
+        	<img src="images/1-Home/user4.png" alt="Posted By" />
+            <p class="posterName"><a href="single-post.html">Mus nascetur</a></p>
+            <p class="postInfo">Adipiscing nisi phasellus auctor et a rhoncus vel ac. Non nunc sit, porta, augue egestas integer.</p>
+        </div>
+        
+        <div class="blogHover">
+              <a href="images/1-Home/blog-img3.jpg" rel="prettyPhoto" class="firstL">Zoom</a>
+              <a href="single-post.html">Link</a>
+        </div>
+    </div>
+    
+    <div class="large-6 columns postContainer">
+    	<div class="post-num">
+        	<img src="images/4-Blog/blog-post-img4.jpg" alt="Blog Image" />
+            <p class="postDate">05.12.2013</p>
+        </div>
+        
+        <div class="postInfo">
+        	<img src="images/1-Home/user1.png" alt="Posted By" />
+            <p class="posterName"><a href="single-post.html">Mus nascetur</a></p>
+            <p class="postInfo">Adipiscing nisi phasellus auctor et a rhoncus vel ac. Non nunc sit, porta, augue egestas integer.</p>
+        </div>
+        
+        <div class="blogHover">
+              <a href="images/1-Home/blog-img3.jpg" rel="prettyPhoto" class="firstL">Zoom</a>
+              <a href="single-post.html">Link</a>
+        </div>
+    </div>
+    
+    <div class="large-6 columns postContainer">
+    	<div class="post-num">
+        	<img src="images/4-Blog/blog-post-img5.jpg" alt="Blog Image" />
+            <p class="postDate">05.12.2013</p>
+        </div>
+        
+        <div class="postInfo">
+        	<img src="images/1-Home/user2.png" alt="Posted By" />
+            <p class="posterName"><a href="single-post.html">Mus nascetur</a></p>
+            <p class="postInfo">Adipiscing nisi phasellus auctor et a rhoncus vel ac. Non nunc sit, porta, augue egestas integer.</p>
+        </div>
+        
+        <div class="blogHover">
+              <a href="images/1-Home/blog-img3.jpg" rel="prettyPhoto" class="firstL">Zoom</a>
+              <a href="single-post.html">Link</a>
+        </div>
+    </div>
+    
+    <div class="large-6 columns postContainer">
+    	<div class="post-num">
+        	<img src="images/4-Blog/blog-post-img6.jpg" alt="Blog Image" />
+            <p class="postDate">05.12.2013</p>
+        </div>
+        
+        <div class="postInfo">
+        	<img src="images/1-Home/user3.png" alt="Posted By" />
+            <p class="posterName"><a href="single-post.html">Mus nascetur</a></p>
+            <p class="postInfo">Adipiscing nisi phasellus auctor et a rhoncus vel ac. Non nunc sit, porta, augue egestas integer.</p>
+        </div>
+        
+        <div class="blogHover">
+              <a href="images/1-Home/blog-img3.jpg" rel="prettyPhoto" class="firstL">Zoom</a>
+              <a href="single-post.html">Link</a>
+        </div>
+    </div>
+ </div>
+ 
+  
+  
+  <!--FOOTER SECTION-->
+  
+  <div id="footerWrapp">
+  <a href="blog.html#" class="goTop">Go Top</a>
+      <div id="topFooter">
+        <div id="footer" class="row">
+            <div class="large-8 columns">
+                <div class="row footerNav">
+                    <ul id="footer-navigation" class="footerUl clear-fix">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                         <li><a href="typography.html">Features</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                    
+                    <ul id="footer-info" class="footerUl clear-fix">
+                        <li>Some Street. City, 0000.</li>
+                        <li>(328) 357-5478</li>
+                        <li>email@email.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="large-4 columns footerSocials">
+            	<p>Follow us on :</p>
+                <div class="footSocials">
+                	<a class="facebook" href="blog.html#">Facebook</a>
+                    <a class="twitter" href="blog.html#">Twitter</a>
+                    <a class="skype" href="blog.html#">Skype</a>
+                    <a class="vimeo" href="blog.html#">Vimeo</a>
+                </div>
+            </div>
+         </div>
+      </div>
+      
+      <div id="copyright" class="row">
+      	<p>All Rights Reserved 2013</p>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  <!--Zepto and jQuery Script-->
+  <script>
+	  document.write('<script src=' + ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') + '.js><\/script>')
+  </script>
+  
+  <!--Minified Foundation Javascript file-->
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!--
+  
+  <script src="javascripts/foundation/foundation.js"></script>
+  
+  <script src="javascripts/foundation/foundation.dropdown.js"></script>
+  
+  <script src="javascripts/foundation/foundation.alerts.js"></script>
+  
+  <script src="javascripts/foundation/foundation.clearing.js"></script>
+  
+  <script src="javascripts/foundation/foundation.placeholder.js"></script>
+  
+  <script src="javascripts/foundation/foundation.forms.js"></script>
+  
+  <script src="javascripts/foundation/foundation.cookie.js"></script>
+  
+  <script src="javascripts/foundation/foundation.joyride.js"></script>
+  
+  <script src="javascripts/foundation/foundation.magellan.js"></script>
+  
+  <script src="javascripts/foundation/foundation.reveal.js"></script>
+  
+  <script src="javascripts/foundation/foundation.section.js"></script>
+  
+  <script src="javascripts/foundation/foundation.tooltips.js"></script>
+  
+  <script src="javascripts/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <!--Call Foundation script in document-->
+  <script>
+  	$(document).foundation();
+  </script>
+  
+  <!--ORBIT SLIDER SCRIPT-->
+  <script src="javascripts/foundation/foundation.orbit.js"></script>
+  
+   <!--Select Menu on Smaller Screens-->
+  <script type="text/javascript">
+  	$("select").change(function() {
+	  window.location = $(this).find("option:selected").val();
+	});
+  </script>
+  
+  <!--Arc Text Plugin-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.arctext.js"></script>
+  <script type="text/javascript">
+  		$('#titleContainer h1').arctext({radius: 2300})
+		
+		$('.goTop').on('click', function(e) {
+			$('html, body').animate({
+				scrollTop : 0
+			},'slow');
+			
+			e.preventDefault();
+		});
+  </script>
+  
+  <!--FILTERABLE PLUGIN-->
+  <script type="text/javascript" src="javascripts/filterable.pack.js"></script>
+  
+  <script type="text/javascript">
+  	$(document).ready(function(){
+    	$('portfolio-list').filterable();
+	});
+
+  </script>
+  
+  <!--PrettyPhoto Plugin-->
+  <script type="text/javascript" src="javascripts/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" charset="utf-8">
+	  $(document).ready(function(){
+		$("a[rel^='prettyPhoto']").prettyPhoto();
+	  });
+  </script>
+  
+  <!--MediaNovak Script-->
+  <script type="text/javascript" src="javascripts/novakScript.js"></script>
+  
+  <script type="text/javascript">
+  	$(window).load(function(e) {
+		var slider = new Slider($('.sliderCont1'), $('.slider-nav1'));
+		var slider2 = new Slider($('.sliderCont2'), $('.slider-nav2'));
+		var slider3 = new Slider($('.sliderCont3'), $('.slider-nav3'));
+		var slider4 = new Slider($('.sliderCont4'), $('.slider-nav4'));
+		var slider5 = new Slider($('.sliderCont5'), $('.slider-nav5'));
+		var slider6 = new Slider($('.sliderCont6'), $('.slider-nav6'));
+		var slider7 = new Slider($('.sliderCont7'), $('.slider-nav7'));
+		var slider8 = new Slider($('.sliderCont8'), $('.slider-nav8'));
+		var slider9 = new Slider($('.sliderCont9'), $('.slider-nav9'));
+		
+		slider.container.parent().css('overflow', 'hidden');
+		
+		slider.nav.show().find('button').on('click', function() {
+			slider.setCurrent($(this).data('dir'));
+			slider.transition();
+		});
+		
+		slider2.nav.show().find('button').on('click', function() {
+			slider2.setCurrent($(this).data('dir'));
+			slider2.transition();
+		});
+		
+		slider3.nav.show().find('button').on('click', function() {
+			slider3.setCurrent($(this).data('dir'));
+			slider3.transition();
+		});
+		
+		slider4.nav.show().find('button').on('click', function() {
+			slider4.setCurrent($(this).data('dir'));
+			slider4.transition();
+		});
+		
+		slider5.nav.show().find('button').on('click', function() {
+			slider5.setCurrent($(this).data('dir'));
+			slider5.transition();
+		});
+		
+		slider6.nav.show().find('button').on('click', function() {
+			slider6.setCurrent($(this).data('dir'));
+			slider6.transition();
+		});
+		
+		slider7.nav.show().find('button').on('click', function() {
+			slider7.setCurrent($(this).data('dir'));
+			slider7.transition();
+		});
+		
+		slider8.nav.show().find('button').on('click', function() {
+			slider8.setCurrent($(this).data('dir'));
+			slider8.transition();
+		});
+		
+		slider9.nav.show().find('button').on('click', function() {
+			slider9.setCurrent($(this).data('dir'));
+			slider9.transition();
+		});
+	});
+  </script>
+  
+  
+</body>
+</html>

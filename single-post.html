@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+    
+    <!-- Website Title & Description -->
+    <title>Hexagonal - Clean Multipurpose Responsive Website</title>
+    <meta name="description" content="Hexagonal - Clean Multipurpose Responsive Website">
+    
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+    <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+    
+    <!-- Included CSS Files -->
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/foundation.css">
+    <link rel="stylesheet" href="stylesheets/mainStyles.css">
+    
+    <!-- Google Web Fonts -->
+    
+	<!-- Included JS Files -->
+    <script type="text/javascript" src="javascripts/vendor/custom.modernizr.js"></script>
+    
+</head>
+<body>
+  
+ <!-- THIS IS YOUR HEAD WITH NAVIGATION, INTRO TEXT AND SOCIALS-->
+ 
+ <div id="headerWrapper" class="clear-fix no-background">
+  <div id="header" class="row">
+  	<nav class="top-bar">
+        <ul class="title-area">
+        
+        <!-- Title Area -->
+        
+        <li class="name">
+          <h1><a class="logo" href="index.html"><img src="images/1-Home/logoHere.png" alt="Hex Logo" /></a></h1>
+        </li>
+        
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        
+        <li class="toggle-topbar menu-icon"><a href="single-post.html#"><span>Menu</span></a></li>
+        </ul>
+    
+        <section class="top-bar-section clear-fix">
+        <!-- Left Nav Section -->
+        
+         <ul class="left">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">About Us</a></li>
+          <li class="active"><a href="portfolio.html">Portfolio</a></li>
+          <li class="active"><a href="blog.html">Blog</a></li>
+          <li class="active has-dropdown"><a href="single-post.html#">Features</a>
+          	<ul class="dropdown">
+              <li><a href="services.html">Services</a></li>
+              <li><a href="single-post.html">Single Post</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="typography.html">Typography</a></li>
+            </ul>
+          </li>
+          <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+        
+         <select> 
+	      <option value="" selected="selected">Navigation</option> 
+	      
+	      <option value="index.html">Home</option> 
+	      <option value="about.html">About Us</option> 
+	      <option value="portfolio.html">Portfolio</option> 
+	      <option value="blog.html">Blog</option> 
+	      <option value="services.html">Services</option>
+          <option value="single-post.html">Single Post</option> 
+          <option value="team.html">Team</option> 
+          <option value="typography.html">Typography</option>
+          <option value="contact.html">Contact</option> 
+	    </select>
+        
+        <ul id="socials">
+          <li class="active"><a href="single-post.html#">Facebook</a></li>
+          <li class="active"><a href="single-post.html#">Twitter</a></li>
+        </ul>
+        </section>
+	</nav>
+ </div>
+ </div>
+ 
+ 
+ <!--SINGLE-POST BANNER-->
+ 
+ <div id="banner">
+ 	<p>Post Name</p>
+ 	<span>
+    	<p>P</p>
+    </span>
+ </div>
+
+
+ <!-- SINGLE-POST WRAPPER-->
+ 
+ <div id="singlePost" class="row">
+    <div id="leftSider" class="large-7 columns">
+    	<h2>Latest Blog Post</h2>
+        <div class="large-12 columns postContainer singlePostcont">
+	    	<span class="post-num singlePostContainer">
+	        	<img src="images/4-Blog/blog-post-img1.jpg" alt="Blog Image" />
+	        </span>
+	        
+	        <div class="postInfo">
+	        	<img src="images/1-Home/user1.png" alt="Posted By" />
+	            <p class="posterName">Mus nascetur</p>
+	            <p class="postInfo">Adipiscing nisi phasellus auctor et a rhoncus vel ac. Non nunc sit, porta, augue egestas integer.</p>
+	        </div>
+    	</div>
+        
+        <div class="large-12 columns singlePostContent">
+        	<p>Ut lorem sed. Placerat mattis rhoncus, massa. Elit, elit magnis porta lundium, mauris. Magnis dapibus non! Augue nisi? Amet turpis. Sed mid lectus ultricies amet nunc ac eros odio turpis porttitor, turpis? Nunc! Dis ultrices, enim turpis adipiscing ut ultricies duis eros montes dictumst, facilisis, ultricies amet augue a et tempor ut dapibus dis! Massa sociis, tristique porta porttitor cum.</p>
+            
+           <p>Aenean, elit, augue aliquam, cursus, lacus odio pulvinar montes a mus, egestas mid, magna hac, lacus aliquet? Aliquet pid cursus mus ut. Non? Hac dignissim et. Ridiculus, turpis urna parturient facilisis elementum lectus. Et lacus turpis rhoncus! Tincidunt placerat ut, lacus dignissim augue rhoncus! Lectus pellentesque tristique scelerisque dapibus.</p>
+           
+           <p>Porttitor porta hac urna ac, odio pulvinar dolor porttitor a. Sociis. Vel tempor aenean, diam, augue ultricies pellentesque urna? Platea a, auctor ut, mauris augue, etiam vel facilisis pid. Porta mattis vel placerat auctor dictumst ac integer!</p>
+           
+           <p>
+           <span class="post-num singlePostContainer">
+	        	<img src="images/4-Blog/blog-post-img2.jpg" alt="Blog Image" />
+	        </span>
+            </p> 
+            
+            <p>Aenean, elit, augue aliquam, cursus, lacus odio pulvinar montes a mus, egestas mid, magna hac, lacus aliquet? Aliquet pid cursus mus ut. Non? Hac dignissim et. Ridiculus, turpis urna parturient facilisis elementum lectus. Et lacus turpis rhoncus! Tincidunt placerat ut, lacus dignissim augue rhoncus! Lectus pellentesque tristique scelerisque dapibus.</p>
+        </div>
+        
+        <!--<div id="singlePostComments" class="large-12 columns">
+        	<h2>Comments</h2>
+        </div>-->
+    </div>
+    
+    <div id="rightSider" class="large-5 columns">
+    	<h2>Blog Categories</h2>
+        
+        <div id="categories" class="large-12 sidebar">
+        	<ul id="lists">
+                <li><a href="single-post.html#">Augue porta lorem odio,  lorem odio</a></li>
+                <li><a href="single-post.html#">Dapibus pid penatibus, apibus pid</a></li>
+                <li><a href="single-post.html#">Diam scelerisque lacus, iam scelerisque</a></li>
+                <li><a href="single-post.html#">Eu, et tincidunt, quis parturient</a></li>
+            </ul>
+        </div>
+        
+        <!--<div id="popularTags" class="large-12 columns sidebar">
+        	<h2>Popular Tags</h2>
+        	<span>
+            	<a href="single-post.html#">Web Design</a>
+                <a href="single-post.html#">Photography</a>
+                <a href="single-post.html#">Art</a>
+                <a href="single-post.html#">Responsive</a>
+                <a href="single-post.html#">Mobile Apps</a>
+                <a href="single-post.html#">SEO</a>
+            </span>
+        </div>-->
+        
+        <div id="latestProject" class="large-12 columns sidebar">
+        	<h2>Latest Projects</h2>
+        	<span class="latestPro">
+            	<a href="single-post.html#"><img src="images/5-SinglePost/pro1.png" alt="Project Thumb"></a>
+                <a href="single-post.html#"><img src="images/5-SinglePost/pro2.png" alt="Project Thumb"></a>
+                <a href="single-post.html#"><img src="images/5-SinglePost/pro3.png" alt="Project Thumb"></a>
+                <a href="single-post.html#"><img src="images/5-SinglePost/pro4.png" alt="Project Thumb"></a>
+                <a href="single-post.html#"><img src="images/5-SinglePost/pro5.png" alt="Project Thumb"></a>
+                <a href="single-post.html#"><img src="images/5-SinglePost/pro6.png" alt="Project Thumb"></a>
+            </span>
+        </div>
+        
+        <div id="otherBlogPosts" class="large-12 columns sidebar">
+        	<h2>Other Blog Posts</h2>
+        	<ul class="clear-fix">
+            	<li>
+                	<img src="images/5-SinglePost/other-blog-posts.jpg" width="120" height="80" alt="Blog Post Image" />
+                    <h4><a href="single-post.html">Blog Post Title</a></h4>
+                    <p class="date">05.01.2013</p>
+                    <p class="blogContent">Nisi integer tristique placerat sed, velit! Porta odio dolor odio...</p>
+                </li>
+                
+                <li>
+                	<img src="images/5-SinglePost/other-blog-posts2.jpg" width="120" height="80" alt="Blog Post Image" />
+                    <h4><a href="single-post.html">Blog Post Title</a></h4>
+                    <p class="date">05.01.2013</p>
+                    <p class="blogContent">Nisi integer tristique placerat sed, velit! Porta odio dolor odio...</p>
+                </li>
+                
+                <li>
+                	<img src="images/5-SinglePost/other-blog-posts3.jpg" width="120" height="80" alt="Blog Post Image" />
+                    <h4><a href="single-post.html">Blog Post Title</a></h4>
+                    <p class="date">05.01.2013</p>
+                    <p class="blogContent">Nisi integer tristique placerat sed, velit! Porta odio dolor odio...</p>
+                </li>
+            </ul>
+        </div>
+        
+        <div id="twitterFeed" class="large-12 columns sidebar">
+        	<h2 class="tweetFeed">Twitter Feed</h2>
+        	<div class="tweet"></div>
+        </div>
+        
+        <!--<div id="latestComments" class="large-12 columns sidebar">
+        	<h2>Latest Comments</h2>
+            <span>
+	        	<img src="images/5-SinglePost/angelina-other-comments.png" width="49" height="54" alt="User Image">
+	            <h4>Angelina Jolie</h4>
+	            <p class="postAction">Commented on Web Design</p>
+	            <p>Proin enim aliquet nisi proin integer sit magna tincidunt? Eros turpis. Etiam phasellus...</p>
+            </span>
+            
+            <span>
+	        	<img src="images/5-SinglePost/angelina-other-comments.png" width="49" height="54" alt="User Image">
+	            <h4>Angelina Jolie</h4>
+	            <p class="postAction">Commented on Web Design</p>
+	            <p>Proin enim aliquet nisi proin integer sit magna tincidunt? Eros turpis. Etiam phasellus...</p>
+            </span>
+            
+            <span>
+	        	<img src="images/5-SinglePost/angelina-other-comments.png" width="49" height="54" alt="User Image">
+	            <h4>Angelina Jolie</h4>
+	            <p class="postAction">Commented on Web Design</p>
+	            <p>Proin enim aliquet nisi proin integer sit magna tincidunt? Eros turpis. Etiam phasellus...</p>
+            </span>
+        </div>-->
+        
+    </div>
+ </div>
+ 
+  
+  
+  <!--FOOTER SECTION-->
+  
+  <div id="footerWrapp">
+  <a href="single-post.html#" class="goTop">Go Top</a>
+      <div id="topFooter">
+        <div id="footer" class="row">
+            <div class="large-8 columns">
+                <div class="row footerNav">
+                    <ul id="footer-navigation" class="footerUl clear-fix">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                         <li><a href="typography.html">Features</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                    
+                    <ul id="footer-info" class="footerUl clear-fix">
+                        <li>Some Street. City, 0000.</li>
+                        <li>(328) 357-5478</li>
+                        <li>email@email.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="large-4 columns footerSocials">
+            	<p>Follow us on :</p>
+                <span class="footSocials">
+                	<a class="facebook" href="single-post.html#">Facebook</a>
+                    <a class="twitter" href="single-post.html#">Twitter</a>
+                    <a class="skype" href="single-post.html#">Skype</a>
+                    <a class="vimeo" href="single-post.html#">Vimeo</a>
+                </span>
+            </div>
+         </div>
+      </div>
+      
+      <div id="copyright" class="row">
+      	<p>All Rights Reserved 2013</p>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  <!--Zepto and jQuery Script-->
+  <script>
+	  document.write('<script src=' + ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') + '.js><\/script>')
+  </script>
+  
+  <!--Minified Foundation Javascript file-->
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!--
+  
+  <script src="javascripts/foundation/foundation.js"></script>
+  
+  <script src="javascripts/foundation/foundation.dropdown.js"></script>
+  
+  <script src="javascripts/foundation/foundation.alerts.js"></script>
+  
+  <script src="javascripts/foundation/foundation.clearing.js"></script>
+  
+  <script src="javascripts/foundation/foundation.placeholder.js"></script>
+  
+  <script src="javascripts/foundation/foundation.forms.js"></script>
+  
+  <script src="javascripts/foundation/foundation.cookie.js"></script>
+  
+  <script src="javascripts/foundation/foundation.joyride.js"></script>
+  
+  <script src="javascripts/foundation/foundation.magellan.js"></script>
+  
+  <script src="javascripts/foundation/foundation.reveal.js"></script>
+  
+  <script src="javascripts/foundation/foundation.section.js"></script>
+  
+  <script src="javascripts/foundation/foundation.tooltips.js"></script>
+  
+  <script src="javascripts/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <!--Call Foundation script in document-->
+  <script>
+  	$(document).foundation();
+  </script>
+  
+  <!--ORBIT SLIDER SCRIPT-->
+  <script src="javascripts/foundation/foundation.orbit.js"></script>
+  
+   <!--Select Menu on Smaller Screens-->
+  <script type="text/javascript">
+  	$("select").change(function() {
+	  window.location = $(this).find("option:selected").val();
+	});
+  </script>
+  
+  <!--Arc Text Plugin-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.arctext.js"></script>
+  <script type="text/javascript">
+  		$('#titleContainer h1').arctext({radius: 2300})
+		
+		$('.goTop').on('click', function(e) {
+			$('html, body').animate({
+				scrollTop : 0
+			},'slow');
+			
+			e.preventDefault();
+		});
+  </script>
+  
+  <!--SLIDER PLUGIN CALL-->
+  
+  <script type="text/javascript">
+  $(window).load(function(e) {
+	  	var servSlider = new Slider2($('#servSlider'), $('.sliderNav'));
+		
+		servSlider.nav.show().find('button').on('click', function() {
+				servSlider.setCurrent($(this).data('dir'));
+				servSlider.transition();
+		});
+   });
+  </script>
+  
+  <!--Project Image Toogle-->
+  <script type="text/javascript">
+  	$(document).ready(function(e) {
+        $('.thumbLinks a').click(function(e) {
+			var imgSrc = $(this).attr('href');
+            e.preventDefault();
+			
+			$('#projectInfo img').attr('src', imgSrc);
+        });
+    });
+  </script>
+  
+  <!--Tweet Plugin-->
+  <script type="text/javascript" src="javascripts/jquery.tweet.js"></script>
+  
+  <script type='text/javascript'>
+    jQuery(function($){
+        $(".tweet").tweet({
+            username: "avathemes",
+            join_text: "auto",
+            avatar_size: 32,
+            count: 1,
+            auto_join_text_default: "we said,", 
+            auto_join_text_ed: "we",
+            auto_join_text_ing: "we were",
+            auto_join_text_reply: "we replied to",
+            auto_join_text_url: "we were checking out",
+            loading_text: "loading tweets..."
+        });
+    });
+</script>
+  
+  <!--MediaNovak Script-->
+  <script type="text/javascript" src="javascripts/novakScript.js"></script>
+ 
+  
+</body>
+</html>
